@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import Product from "../backend/models/product.model.js";
+import Product from "../models/product.model.js";
 
 export const getProducts = async(req,res)=>{
     try{
@@ -33,7 +33,7 @@ export const createProduct = async (req,res)=>{
 export const updateProduct = async(req,res)=>{
     const{id} = req.params;
 
-    const products = req.body;
+    const product = req.body;
 
     if(!mongoose.Types.ObjectId.isValid(id)){
         
