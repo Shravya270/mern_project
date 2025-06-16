@@ -27,11 +27,15 @@ A full-stack web application built using the MERN stack (MongoDB, Express.js, Re
   PORT=5000
 
 3. **Install dependencies :**
+   ```bash
   npm install
 
-4. **Run the app in development :**
+5. **Run the app in development :**
+   ```bash
   npm run dev
 
-5. **Build frontend and start in production :**
+7. **Build frontend and start in production :**
+  ```bash
   npm run build
+   ```bash
   npm run start
